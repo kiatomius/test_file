@@ -1,6 +1,2 @@
-require "test_file/version"
-
-module TestFile
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative './test_file/cli'
+require_relative './test_file/version'

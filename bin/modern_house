@@ -1,0 +1,4 @@
+#!/user/bin/env ruby
+require './lib/test_file'
+
+ModernHouse::CLI.new.call
